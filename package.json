@@ -1,0 +1,17 @@
+{
+  "name": "quick-start-module",
+  "version": "1.0.0",
+  "description": "A module template to help you get started",
+  "main": "dist/backend/index.js",
+  "author": "Botpress",
+  "license": "AGPL-3.0-only",
+  "private": true,
+  "devDependencies": {
+    "module-builder": "file:../../build/module-builder"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/module-builder build",
+    "watch": "./node_modules/.bin/module-builder watch",
+    "package": "./node_modules/.bin/module-builder package"
+  }
+}
